@@ -1,0 +1,253 @@
+starting run...
+
+=== quality target = 0.99 ===
+[  1/ 61] SYN_1x1 black                  | k=     | achieved=% | CR=Inf | PSNR=   Inf | time=0.0036s
+[  2/ 61] SYN_1x1 white                  | k=   1 | achieved=100.00% | CR=0.0833 | PSNR=   Inf | time=0.0004s
+[  3/ 61] SYN_2x2 checker                | k=   2 | achieved=100.00% | CR=0.1000 | PSNR=   Inf | time=0.0007s
+[  4/ 61] SYN_odd uniform black          | k=     | achieved=% | CR=Inf | PSNR=   Inf | time=0.0169s
+[  5/ 61] SYN_odd uniform 128            | k=   1 | achieved=100.00% | CR=42.7500 | PSNR=   Inf | time=0.0173s
+[  6/ 61] SYN_half black half white      | k=   1 | achieved=100.00% | CR=42.6112 | PSNR=   Inf | time=0.0153s
+[  7/ 61] SYN_1px stripes                | k=   1 | achieved=100.00% | CR=42.6112 | PSNR=   Inf | time=0.0320s
+[  8/ 61] SYN_random noise               | k= 164 | achieved=99.03% | CR=0.1947 | PSNR= 25.01 | time=0.0231s
+[  9/ 61] SYN_horizontal gradient        | k=   1 | achieved=100.00% | CR=31.9376 | PSNR=   Inf | time=0.0115s
+[ 10/ 61] SYN_vertical gradient          | k=   1 | achieved=100.00% | CR=31.9376 | PSNR=   Inf | time=0.0125s
+[ 11/ 61] FILE_Lenstarg.png              | k=   6 | achieved=99.13% | CR=69.1628 | PSNR= 23.15 | time=4.1731s
+[ 12/ 61] FILE_Zoneplate.png             | k=   3 | achieved=99.70% | CR=218.5967 | PSNR= 28.75 | time=43.6636s
+[ 13/ 61] FILE_BoatsColor.bmp            | k=  24 | achieved=99.01% | CR=3.4619 | PSNR= 25.70 | time=0.1039s
+[ 14/ 61] FILE_Colorchecker.bmp          | k=   4 | achieved=99.21% | CR=18.0629 | PSNR= 28.19 | time=0.0845s
+[ 15/ 61] FILE_Earth.bmp                 | k= 168 | achieved=99.00% | CR=0.5639 | PSNR= 30.01 | time=0.1809s
+[ 16/ 61] FILE_Jupiter.bmp               | k=   3 | achieved=99.09% | CR=50.6009 | PSNR= 29.78 | time=0.4228s
+[ 17/ 61] FILE_MachColor.bmp             | k=   1 | achieved=99.38% | CR=58.0939 | PSNR= 27.85 | time=0.0349s
+[ 18/ 61] FILE_Malamute.bmp              | k=  79 | achieved=99.01% | CR=2.0478 | PSNR= 26.40 | time=0.4942s
+[ 19/ 61] FILE_Maltese.bmp               | k=   6 | achieved=99.02% | CR=48.6851 | PSNR= 23.70 | time=3.3297s
+[ 20/ 61] FILE_Mars.bmp                  | k=  83 | achieved=99.00% | CR=1.7128 | PSNR= 30.11 | time=0.4130s
+[ 21/ 61] FILE_Mercury.bmp               | k=  30 | achieved=99.00% | CR=2.5315 | PSNR= 30.73 | time=0.0839s
+[ 22/ 61] FILE_Neptune.bmp               | k=   4 | achieved=99.06% | CR=31.9688 | PSNR= 32.51 | time=0.3519s
+[ 23/ 61] FILE_Rainier.bmp               | k= 221 | achieved=99.00% | CR=0.7816 | PSNR= 28.03 | time=0.5092s
+[ 24/ 61] FILE_Saturn.bmp                | k=  21 | achieved=99.01% | CR=7.9336 | PSNR= 31.19 | time=0.6354s
+[ 25/ 61] FILE_Sun.bmp                   | k=  24 | achieved=99.03% | CR=10.7603 | PSNR= 29.80 | time=2.4194s
+[ 26/ 61] FILE_Sunrise.bmp               | k=   6 | achieved=99.12% | CR=81.6029 | PSNR= 25.18 | time=10.0350s
+[ 27/ 61] FILE_Uranus.bmp                | k=  15 | achieved=99.09% | CR=11.5162 | PSNR= 32.53 | time=0.4558s
+[ 28/ 61] FILE_Zelda.bmp                 | k=  15 | achieved=99.09% | CR=5.5390 | PSNR= 27.05 | time=0.2049s
+[ 29/ 61] FILE_airplane.bmp              | k=  13 | achieved=99.03% | CR=4.9183 | PSNR= 22.90 | time=0.0884s
+[ 30/ 61] FILE_airplaneU2.bmp            | k= 155 | achieved=99.00% | CR=0.8254 | PSNR= 35.78 | time=0.3958s
+[ 31/ 61] FILE_blobs.bmp                 | k=  99 | achieved=99.02% | CR=0.3213 | PSNR= 47.13 | time=0.0192s
+[ 32/ 61] FILE_boats.bmp                 | k=  21 | achieved=99.03% | CR=3.8066 | PSNR= 26.00 | time=0.1000s
+[ 33/ 61] FILE_brickwall.bmp             | k=  67 | achieved=99.01% | CR=1.9095 | PSNR= 27.49 | time=0.3839s
+[ 34/ 61] FILE_cablecar.bmp              | k=  33 | achieved=99.00% | CR=1.8749 | PSNR= 24.97 | time=0.0725s
+[ 35/ 61] FILE_cameraman.bmp             | k=  22 | achieved=99.03% | CR=1.4517 | PSNR= 23.15 | time=0.0173s
+[ 36/ 61] FILE_carpet.bmp                | k= 153 | achieved=99.01% | CR=0.8362 | PSNR= 26.38 | time=0.4183s
+[ 37/ 61] FILE_cellcolony.bmp            | k=   5 | achieved=99.00% | CR=10.1625 | PSNR= 21.72 | time=0.0411s
+[ 38/ 61] FILE_clown.bmp                 | k=  35 | achieved=99.01% | CR=1.8268 | PSNR= 28.84 | time=0.0834s
+[ 39/ 61] FILE_cornfield.bmp             | k=  55 | achieved=99.03% | CR=1.1250 | PSNR= 26.76 | time=0.0740s
+[ 40/ 61] FILE_couple.bmp                | k=  27 | achieved=99.02% | CR=2.3681 | PSNR= 26.01 | time=0.0779s
+[ 41/ 61] FILE_crowd.bmp                 | k=  54 | achieved=99.01% | CR=1.1840 | PSNR= 28.31 | time=0.0852s
+[ 42/ 61] FILE_fruits.bmp                | k=  23 | achieved=99.01% | CR=2.6901 | PSNR= 28.19 | time=0.0845s
+[ 43/ 61] FILE_girl.bmp                  | k=  14 | achieved=99.03% | CR=5.7099 | PSNR= 25.27 | time=0.1025s
+[ 44/ 61] FILE_girlface.bmp              | k=  29 | achieved=99.03% | CR=2.2047 | PSNR= 28.50 | time=0.0837s
+[ 45/ 61] FILE_goldhill.bmp              | k=  23 | achieved=99.02% | CR=3.4756 | PSNR= 27.05 | time=0.0963s
+[ 46/ 61] FILE_houses.bmp                | k=  64 | achieved=99.01% | CR=0.9990 | PSNR= 25.10 | time=0.0771s
+[ 47/ 61] FILE_kiel.bmp                  | k=  51 | achieved=99.01% | CR=1.2537 | PSNR= 25.42 | time=0.0828s
+[ 48/ 61] FILE_lighthouse.bmp            | k=  33 | achieved=99.00% | CR=1.9375 | PSNR= 26.05 | time=0.0853s
+[ 49/ 61] FILE_man.bmp                   | k=  81 | achieved=99.00% | CR=1.5795 | PSNR= 27.69 | time=0.3803s
+[ 50/ 61] FILE_monarch.bmp               | k=  48 | achieved=99.00% | CR=1.5988 | PSNR= 27.01 | time=0.1106s
+[ 51/ 61] FILE_pens.bmp                  | k=  35 | achieved=99.01% | CR=1.7678 | PSNR= 27.47 | time=0.0752s
+[ 52/ 61] FILE_sailboat.bmp              | k=  33 | achieved=99.02% | CR=1.9375 | PSNR= 25.21 | time=0.0917s
+[ 53/ 61] FILE_soccer.bmp                | k=  52 | achieved=99.02% | CR=1.1899 | PSNR= 27.68 | time=0.0776s
+[ 54/ 61] FILE_tank.bmp                  | k=   6 | achieved=99.05% | CR=10.6563 | PSNR= 25.72 | time=0.0949s
+[ 55/ 61] FILE_textureA.bmp              | k=   5 | achieved=99.04% | CR=25.5875 | PSNR= 25.55 | time=0.3735s
+[ 56/ 61] FILE_textureB.bmp              | k=   7 | achieved=99.20% | CR=18.2768 | PSNR= 24.07 | time=0.3681s
+[ 57/ 61] FILE_tiffany.bmp               | k=   2 | achieved=99.03% | CR=31.9688 | PSNR= 21.68 | time=0.0780s
+[ 58/ 61] FILE_truck.bmp                 | k=  18 | achieved=99.01% | CR=3.5521 | PSNR= 27.29 | time=0.0833s
+[ 59/ 61] FILE_trucks.bmp                | k=  36 | achieved=99.01% | CR=1.7760 | PSNR= 27.17 | time=0.0824s
+[ 60/ 61] FILE_yacht.bmp                 | k=  34 | achieved=99.01% | CR=1.8198 | PSNR= 26.59 | time=0.0696s
+[ 61/ 61] FILE_Venus.jpg                 | k=1340 | achieved=99.00% | CR=0.3791 | PSNR= 27.90 | time=21.5600s
+
+=== quality target = 0.95 ===
+[  1/ 61] SYN_1x1 black                  | k=     | achieved=% | CR=Inf | PSNR=   Inf | time=0.0058s
+[  2/ 61] SYN_1x1 white                  | k=   1 | achieved=100.00% | CR=0.0833 | PSNR=   Inf | time=0.0008s
+[  3/ 61] SYN_2x2 checker                | k=   2 | achieved=100.00% | CR=0.1000 | PSNR=   Inf | time=0.0006s
+[  4/ 61] SYN_odd uniform black          | k=     | achieved=% | CR=Inf | PSNR=   Inf | time=0.0192s
+[  5/ 61] SYN_odd uniform 128            | k=   1 | achieved=100.00% | CR=42.7500 | PSNR=   Inf | time=0.0174s
+[  6/ 61] SYN_half black half white      | k=   1 | achieved=100.00% | CR=42.6112 | PSNR=   Inf | time=0.0189s
+[  7/ 61] SYN_1px stripes                | k=   1 | achieved=100.00% | CR=42.6112 | PSNR=   Inf | time=0.0177s
+[  8/ 61] SYN_random noise               | k= 100 | achieved=95.09% | CR=0.3194 | PSNR= 17.94 | time=0.0197s
+[  9/ 61] SYN_horizontal gradient        | k=   1 | achieved=100.00% | CR=31.9376 | PSNR=   Inf | time=0.0120s
+[ 10/ 61] SYN_vertical gradient          | k=   1 | achieved=100.00% | CR=31.9376 | PSNR=   Inf | time=0.0095s
+[ 11/ 61] FILE_Lenstarg.png              | k=   2 | achieved=97.46% | CR=207.4885 | PSNR= 18.49 | time=4.3401s
+[ 12/ 61] FILE_Zoneplate.png             | k=   2 | achieved=98.16% | CR=327.8950 | PSNR= 20.70 | time=43.1503s
+[ 13/ 61] FILE_BoatsColor.bmp            | k=   3 | achieved=95.08% | CR=27.6950 | PSNR= 18.69 | time=0.1052s
+[ 14/ 61] FILE_Colorchecker.bmp          | k=   3 | achieved=97.97% | CR=24.0838 | PSNR= 24.08 | time=0.0903s
+[ 15/ 61] FILE_Earth.bmp                 | k=  44 | achieved=95.01% | CR=2.1531 | PSNR= 23.00 | time=0.1700s
+[ 16/ 61] FILE_Jupiter.bmp               | k=   1 | achieved=96.79% | CR=151.8026 | PSNR= 24.14 | time=0.4052s
+[ 17/ 61] FILE_MachColor.bmp             | k=   1 | achieved=99.38% | CR=58.0939 | PSNR= 27.85 | time=0.0360s
+[ 18/ 61] FILE_Malamute.bmp              | k=   8 | achieved=95.04% | CR=20.2225 | PSNR= 19.40 | time=0.4724s
+[ 19/ 61] FILE_Maltese.bmp               | k=   1 | achieved=97.10% | CR=292.1104 | PSNR= 18.98 | time=3.6187s
+[ 20/ 61] FILE_Mars.bmp                  | k=   2 | achieved=95.08% | CR=71.0803 | PSNR= 22.98 | time=0.4149s
+[ 21/ 61] FILE_Mercury.bmp               | k=   3 | achieved=95.22% | CR=25.3152 | PSNR= 23.94 | time=0.0825s
+[ 22/ 61] FILE_Neptune.bmp               | k=   1 | achieved=95.87% | CR=127.8750 | PSNR= 25.97 | time=0.3539s
+[ 23/ 61] FILE_Rainier.bmp               | k=  42 | achieved=95.02% | CR=4.1129 | PSNR= 21.01 | time=0.4854s
+[ 24/ 61] FILE_Saturn.bmp                | k=   7 | achieved=95.87% | CR=23.8007 | PSNR= 25.13 | time=0.5519s
+[ 25/ 61] FILE_Sun.bmp                   | k=   2 | achieved=95.94% | CR=129.1233 | PSNR= 23.58 | time=2.4469s
+[ 26/ 61] FILE_Sunrise.bmp               | k=   2 | achieved=97.16% | CR=244.8086 | PSNR= 20.29 | time=9.7935s
+[ 27/ 61] FILE_Uranus.bmp                | k=   3 | achieved=95.70% | CR=57.5808 | PSNR= 25.51 | time=0.5911s
+[ 28/ 61] FILE_Zelda.bmp                 | k=   4 | achieved=95.94% | CR=20.7713 | PSNR= 20.54 | time=0.1060s
+[ 29/ 61] FILE_airplane.bmp              | k=   2 | achieved=96.24% | CR=31.9688 | PSNR= 17.04 | time=0.0830s
+[ 30/ 61] FILE_airplaneU2.bmp            | k=  13 | achieved=95.21% | CR=9.8413 | PSNR= 28.99 | time=0.3798s
+[ 31/ 61] FILE_blobs.bmp                 | k=  51 | achieved=95.09% | CR=0.6238 | PSNR= 40.44 | time=0.0193s
+[ 32/ 61] FILE_boats.bmp                 | k=   2 | achieved=95.27% | CR=39.9692 | PSNR= 19.12 | time=0.0938s
+[ 33/ 61] FILE_brickwall.bmp             | k=   1 | achieved=95.43% | CR=127.9375 | PSNR= 20.85 | time=0.3663s
+[ 34/ 61] FILE_cablecar.bmp              | k=   3 | achieved=95.22% | CR=20.6244 | PSNR= 18.17 | time=0.0669s
+[ 35/ 61] FILE_cameraman.bmp             | k=   3 | achieved=95.54% | CR=10.6459 | PSNR= 16.51 | time=0.0164s
+[ 36/ 61] FILE_carpet.bmp                | k=  15 | achieved=95.01% | CR=8.5292 | PSNR= 19.37 | time=0.3645s
+[ 37/ 61] FILE_cellcolony.bmp            | k=   1 | achieved=98.73% | CR=50.8123 | PSNR= 20.66 | time=0.0415s
+[ 38/ 61] FILE_clown.bmp                 | k=   9 | achieved=95.45% | CR=7.1042 | PSNR= 22.21 | time=0.0761s
+[ 39/ 61] FILE_cornfield.bmp             | k=  12 | achieved=95.19% | CR=5.1561 | PSNR= 19.78 | time=0.0709s
+[ 40/ 61] FILE_couple.bmp                | k=   3 | achieved=95.16% | CR=21.3125 | PSNR= 19.09 | time=0.0783s
+[ 41/ 61] FILE_crowd.bmp                 | k=  15 | achieved=95.27% | CR=4.2625 | PSNR= 21.51 | time=0.0776s
+[ 42/ 61] FILE_fruits.bmp                | k=   3 | achieved=95.52% | CR=20.6244 | PSNR= 21.66 | time=0.0690s
+[ 43/ 61] FILE_girl.bmp                  | k=   2 | achieved=95.57% | CR=39.9692 | PSNR= 18.68 | time=0.0978s
+[ 44/ 61] FILE_girlface.bmp              | k=   7 | achieved=95.26% | CR=9.1339 | PSNR= 21.57 | time=0.0782s
+[ 45/ 61] FILE_goldhill.bmp              | k=   2 | achieved=95.09% | CR=39.9692 | PSNR= 20.07 | time=0.0937s
+[ 46/ 61] FILE_houses.bmp                | k=  11 | achieved=95.01% | CR=5.8125 | PSNR= 18.07 | time=0.0839s
+[ 47/ 61] FILE_kiel.bmp                  | k=   2 | achieved=95.35% | CR=31.9688 | PSNR= 18.68 | time=0.0822s
+[ 48/ 61] FILE_lighthouse.bmp            | k=   4 | achieved=95.06% | CR=15.9844 | PSNR= 19.10 | time=0.0858s
+[ 49/ 61] FILE_man.bmp                   | k=  14 | achieved=95.18% | CR=9.1384 | PSNR= 20.82 | time=0.3731s
+[ 50/ 61] FILE_monarch.bmp               | k=  12 | achieved=95.22% | CR=6.3950 | PSNR= 20.22 | time=0.1081s
+[ 51/ 61] FILE_pens.bmp                  | k=  12 | achieved=95.36% | CR=5.1561 | PSNR= 20.77 | time=0.0722s
+[ 52/ 61] FILE_sailboat.bmp              | k=   4 | achieved=95.15% | CR=15.9844 | PSNR= 18.26 | time=0.0791s
+[ 53/ 61] FILE_soccer.bmp                | k=  16 | achieved=95.03% | CR=3.8671 | PSNR= 20.63 | time=0.0656s
+[ 54/ 61] FILE_tank.bmp                  | k=   1 | achieved=97.43% | CR=63.9376 | PSNR= 21.41 | time=0.0798s
+[ 55/ 61] FILE_textureA.bmp              | k=   1 | achieved=98.78% | CR=127.9375 | PSNR= 24.50 | time=0.3722s
+[ 56/ 61] FILE_textureB.bmp              | k=   2 | achieved=95.17% | CR=63.9688 | PSNR= 15.82 | time=0.3649s
+[ 57/ 61] FILE_tiffany.bmp               | k=   1 | achieved=98.80% | CR=63.9376 | PSNR= 20.76 | time=0.0842s
+[ 58/ 61] FILE_truck.bmp                 | k=   1 | achieved=95.88% | CR=63.9376 | PSNR= 21.12 | time=0.0824s
+[ 59/ 61] FILE_trucks.bmp                | k=   3 | achieved=95.29% | CR=21.3125 | PSNR= 20.42 | time=0.0829s
+[ 60/ 61] FILE_yacht.bmp                 | k=   6 | achieved=95.32% | CR=10.3122 | PSNR= 19.82 | time=0.0672s
+[ 61/ 61] FILE_Venus.jpg                 | k= 193 | achieved=95.00% | CR=2.6318 | PSNR= 20.73 | time=19.5770s
+
+=== quality target = 0.90 ===
+[  1/ 61] SYN_1x1 black                  | k=     | achieved=% | CR=Inf | PSNR=   Inf | time=0.0013s
+[  2/ 61] SYN_1x1 white                  | k=   1 | achieved=100.00% | CR=0.0833 | PSNR=   Inf | time=0.0001s
+[  3/ 61] SYN_2x2 checker                | k=   2 | achieved=100.00% | CR=0.1000 | PSNR=   Inf | time=0.0001s
+[  4/ 61] SYN_odd uniform black          | k=     | achieved=% | CR=Inf | PSNR=   Inf | time=0.0178s
+[  5/ 61] SYN_odd uniform 128            | k=   1 | achieved=100.00% | CR=42.7500 | PSNR=   Inf | time=0.0151s
+[  6/ 61] SYN_half black half white      | k=   1 | achieved=100.00% | CR=42.6112 | PSNR=   Inf | time=0.0146s
+[  7/ 61] SYN_1px stripes                | k=   1 | achieved=100.00% | CR=42.6112 | PSNR=   Inf | time=0.0152s
+[  8/ 61] SYN_random noise               | k=  61 | achieved=90.02% | CR=0.5236 | PSNR= 14.80 | time=0.0184s
+[  9/ 61] SYN_horizontal gradient        | k=   1 | achieved=100.00% | CR=31.9376 | PSNR=   Inf | time=0.0091s
+[ 10/ 61] SYN_vertical gradient          | k=   1 | achieved=100.00% | CR=31.9376 | PSNR=   Inf | time=0.0087s
+[ 11/ 61] FILE_Lenstarg.png              | k=   2 | achieved=97.46% | CR=207.4885 | PSNR= 18.49 | time=3.7452s
+[ 12/ 61] FILE_Zoneplate.png             | k=   1 | achieved=91.97% | CR=655.7900 | PSNR= 14.25 | time=41.7162s
+[ 13/ 61] FILE_BoatsColor.bmp            | k=   1 | achieved=92.53% | CR=83.0850 | PSNR= 16.87 | time=0.0958s
+[ 14/ 61] FILE_Colorchecker.bmp          | k=   2 | achieved=93.02% | CR=36.1257 | PSNR= 18.71 | time=0.0665s
+[ 15/ 61] FILE_Earth.bmp                 | k=  17 | achieved=90.32% | CR=5.5727 | PSNR= 20.11 | time=0.1280s
+[ 16/ 61] FILE_Jupiter.bmp               | k=   1 | achieved=96.79% | CR=151.8026 | PSNR= 24.14 | time=0.3276s
+[ 17/ 61] FILE_MachColor.bmp             | k=   1 | achieved=99.38% | CR=58.0939 | PSNR= 27.85 | time=0.0891s
+[ 18/ 61] FILE_Malamute.bmp              | k=   3 | achieved=91.09% | CR=53.9266 | PSNR= 16.85 | time=0.3935s
+[ 19/ 61] FILE_Maltese.bmp               | k=   1 | achieved=97.10% | CR=292.1104 | PSNR= 18.98 | time=3.1265s
+[ 20/ 61] FILE_Mars.bmp                  | k=   1 | achieved=91.89% | CR=142.1605 | PSNR= 20.70 | time=0.4055s
+[ 21/ 61] FILE_Mercury.bmp               | k=   2 | achieved=93.06% | CR=37.9729 | PSNR= 22.33 | time=0.0855s
+[ 22/ 61] FILE_Neptune.bmp               | k=   1 | achieved=95.87% | CR=127.8750 | PSNR= 25.97 | time=0.3328s
+[ 23/ 61] FILE_Rainier.bmp               | k=  10 | achieved=90.39% | CR=17.2742 | PSNR= 18.14 | time=0.4637s
+[ 24/ 61] FILE_Saturn.bmp                | k=   3 | achieved=90.53% | CR=55.5350 | PSNR= 21.46 | time=0.5584s
+[ 25/ 61] FILE_Sun.bmp                   | k=   1 | achieved=93.19% | CR=258.2467 | PSNR= 21.33 | time=2.0830s
+[ 26/ 61] FILE_Sunrise.bmp               | k=   1 | achieved=94.99% | CR=489.6172 | PSNR= 17.70 | time=9.0804s
+[ 27/ 61] FILE_Uranus.bmp                | k=   2 | achieved=94.38% | CR=86.3712 | PSNR= 24.35 | time=0.4973s
+[ 28/ 61] FILE_Zelda.bmp                 | k=   2 | achieved=92.64% | CR=41.5425 | PSNR= 17.95 | time=0.1032s
+[ 29/ 61] FILE_airplane.bmp              | k=   1 | achieved=95.00% | CR=63.9376 | PSNR= 15.79 | time=0.0843s
+[ 30/ 61] FILE_airplaneU2.bmp            | k=   5 | achieved=91.11% | CR=25.5875 | PSNR= 26.30 | time=0.3914s
+[ 31/ 61] FILE_blobs.bmp                 | k=  33 | achieved=90.14% | CR=0.9640 | PSNR= 37.40 | time=0.0176s
+[ 32/ 61] FILE_boats.bmp                 | k=   1 | achieved=93.98% | CR=79.9383 | PSNR= 18.08 | time=0.0903s
+[ 33/ 61] FILE_brickwall.bmp             | k=   1 | achieved=95.43% | CR=127.9375 | PSNR= 20.85 | time=0.3559s
+[ 34/ 61] FILE_cablecar.bmp              | k=   1 | achieved=92.25% | CR=61.8731 | PSNR= 16.07 | time=0.0655s
+[ 35/ 61] FILE_cameraman.bmp             | k=   1 | achieved=91.40% | CR=31.9376 | PSNR= 13.66 | time=0.0164s
+[ 36/ 61] FILE_carpet.bmp                | k=   3 | achieved=92.37% | CR=42.6458 | PSNR= 17.53 | time=0.3693s
+[ 37/ 61] FILE_cellcolony.bmp            | k=   1 | achieved=98.73% | CR=50.8123 | PSNR= 20.66 | time=0.0477s
+[ 38/ 61] FILE_clown.bmp                 | k=   4 | achieved=90.85% | CR=15.9844 | PSNR= 19.20 | time=0.0951s
+[ 39/ 61] FILE_cornfield.bmp             | k=   1 | achieved=90.44% | CR=61.8731 | PSNR= 16.79 | time=0.0821s
+[ 40/ 61] FILE_couple.bmp                | k=   1 | achieved=91.65% | CR=63.9376 | PSNR= 16.72 | time=0.0988s
+[ 41/ 61] FILE_crowd.bmp                 | k=   7 | achieved=90.75% | CR=9.1339 | PSNR= 18.60 | time=0.0878s
+[ 42/ 61] FILE_fruits.bmp                | k=   2 | achieved=94.29% | CR=30.9366 | PSNR= 20.61 | time=0.0667s
+[ 43/ 61] FILE_girl.bmp                  | k=   1 | achieved=93.91% | CR=79.9383 | PSNR= 17.30 | time=0.0948s
+[ 44/ 61] FILE_girlface.bmp              | k=   4 | achieved=92.31% | CR=15.9844 | PSNR= 19.47 | time=0.0821s
+[ 45/ 61] FILE_goldhill.bmp              | k=   1 | achieved=93.30% | CR=79.9383 | PSNR= 18.76 | time=0.1028s
+[ 46/ 61] FILE_houses.bmp                | k=   4 | achieved=90.70% | CR=15.9844 | PSNR= 15.35 | time=0.0801s
+[ 47/ 61] FILE_kiel.bmp                  | k=   1 | achieved=94.54% | CR=63.9376 | PSNR= 17.97 | time=0.0871s
+[ 48/ 61] FILE_lighthouse.bmp            | k=   1 | achieved=90.84% | CR=63.9376 | PSNR= 16.42 | time=0.0781s
+[ 49/ 61] FILE_man.bmp                   | k=   6 | achieved=90.94% | CR=21.3229 | PSNR= 18.06 | time=0.3677s
+[ 50/ 61] FILE_monarch.bmp               | k=   2 | achieved=90.44% | CR=38.3700 | PSNR= 17.20 | time=0.1124s
+[ 51/ 61] FILE_pens.bmp                  | k=   7 | achieved=91.54% | CR=8.8390 | PSNR= 18.16 | time=0.0663s
+[ 52/ 61] FILE_sailboat.bmp              | k=   1 | achieved=90.31% | CR=63.9376 | PSNR= 15.26 | time=0.0824s
+[ 53/ 61] FILE_soccer.bmp                | k=   5 | achieved=90.06% | CR=12.3746 | PSNR= 17.60 | time=0.0635s
+[ 54/ 61] FILE_tank.bmp                  | k=   1 | achieved=97.43% | CR=63.9376 | PSNR= 21.41 | time=0.0853s
+[ 55/ 61] FILE_textureA.bmp              | k=   1 | achieved=98.78% | CR=127.9375 | PSNR= 24.50 | time=0.5122s
+[ 56/ 61] FILE_textureB.bmp              | k=   2 | achieved=95.17% | CR=63.9688 | PSNR= 15.82 | time=0.3570s
+[ 57/ 61] FILE_tiffany.bmp               | k=   1 | achieved=98.80% | CR=63.9376 | PSNR= 20.76 | time=0.0767s
+[ 58/ 61] FILE_truck.bmp                 | k=   1 | achieved=95.88% | CR=63.9376 | PSNR= 21.12 | time=0.0794s
+[ 59/ 61] FILE_trucks.bmp                | k=   1 | achieved=92.41% | CR=63.9376 | PSNR= 18.35 | time=0.0788s
+[ 60/ 61] FILE_yacht.bmp                 | k=   2 | achieved=90.88% | CR=30.9366 | PSNR= 16.93 | time=0.0639s
+[ 61/ 61] FILE_Venus.jpg                 | k=  11 | achieved=90.18% | CR=46.1761 | PSNR= 17.78 | time=20.2793s
+
+=== quality target = 0.80 ===
+[  1/ 61] SYN_1x1 black                  | k=     | achieved=% | CR=Inf | PSNR=   Inf | time=0.0013s
+[  2/ 61] SYN_1x1 white                  | k=   1 | achieved=100.00% | CR=0.0833 | PSNR=   Inf | time=0.0002s
+[  3/ 61] SYN_2x2 checker                | k=   2 | achieved=100.00% | CR=0.1000 | PSNR=   Inf | time=0.0002s
+[  4/ 61] SYN_odd uniform black          | k=     | achieved=% | CR=Inf | PSNR=   Inf | time=0.0214s
+[  5/ 61] SYN_odd uniform 128            | k=   1 | achieved=100.00% | CR=42.7500 | PSNR=   Inf | time=0.0184s
+[  6/ 61] SYN_half black half white      | k=   1 | achieved=100.00% | CR=42.6112 | PSNR=   Inf | time=0.0209s
+[  7/ 61] SYN_1px stripes                | k=   1 | achieved=100.00% | CR=42.6112 | PSNR=   Inf | time=0.0196s
+[  8/ 61] SYN_random noise               | k=  16 | achieved=80.03% | CR=1.9961 | PSNR= 11.76 | time=0.0175s
+[  9/ 61] SYN_horizontal gradient        | k=   1 | achieved=100.00% | CR=31.9376 | PSNR=   Inf | time=0.0099s
+[ 10/ 61] SYN_vertical gradient          | k=   1 | achieved=100.00% | CR=31.9376 | PSNR=   Inf | time=0.0096s
+[ 11/ 61] FILE_Lenstarg.png              | k=   1 | achieved=86.17% | CR=414.9770 | PSNR= 11.16 | time=4.0902s
+[ 12/ 61] FILE_Zoneplate.png             | k=   1 | achieved=91.97% | CR=655.7900 | PSNR= 14.25 | time=43.9727s
+[ 13/ 61] FILE_BoatsColor.bmp            | k=   1 | achieved=92.53% | CR=83.0850 | PSNR= 16.87 | time=0.1124s
+[ 14/ 61] FILE_Colorchecker.bmp          | k=   1 | achieved=84.10% | CR=72.2515 | PSNR= 15.14 | time=0.0891s
+[ 15/ 61] FILE_Earth.bmp                 | k=   5 | achieved=81.47% | CR=18.9470 | PSNR= 17.29 | time=0.1577s
+[ 16/ 61] FILE_Jupiter.bmp               | k=   1 | achieved=96.79% | CR=151.8026 | PSNR= 24.14 | time=0.4222s
+[ 17/ 61] FILE_MachColor.bmp             | k=   1 | achieved=99.38% | CR=58.0939 | PSNR= 27.85 | time=0.0416s
+[ 18/ 61] FILE_Malamute.bmp              | k=   1 | achieved=85.23% | CR=161.7798 | PSNR= 14.66 | time=0.4983s
+[ 19/ 61] FILE_Maltese.bmp               | k=   1 | achieved=97.10% | CR=292.1104 | PSNR= 18.98 | time=3.7283s
+[ 20/ 61] FILE_Mars.bmp                  | k=   1 | achieved=91.89% | CR=142.1605 | PSNR= 20.70 | time=0.4313s
+[ 21/ 61] FILE_Mercury.bmp               | k=   1 | achieved=88.01% | CR=75.9457 | PSNR= 19.84 | time=0.0795s
+[ 22/ 61] FILE_Neptune.bmp               | k=   1 | achieved=95.87% | CR=127.8750 | PSNR= 25.97 | time=0.3456s
+[ 23/ 61] FILE_Rainier.bmp               | k=   2 | achieved=81.48% | CR=86.3712 | PSNR= 15.28 | time=0.5075s
+[ 24/ 61] FILE_Saturn.bmp                | k=   2 | achieved=85.29% | CR=83.3025 | PSNR= 19.57 | time=0.5706s
+[ 25/ 61] FILE_Sun.bmp                   | k=   1 | achieved=93.19% | CR=258.2467 | PSNR= 21.33 | time=2.4590s
+[ 26/ 61] FILE_Sunrise.bmp               | k=   1 | achieved=94.99% | CR=489.6172 | PSNR= 17.70 | time=10.1474s
+[ 27/ 61] FILE_Uranus.bmp                | k=   1 | achieved=89.94% | CR=172.7424 | PSNR= 21.73 | time=0.4932s
+[ 28/ 61] FILE_Zelda.bmp                 | k=   1 | achieved=88.08% | CR=83.0850 | PSNR= 15.86 | time=0.1074s
+[ 29/ 61] FILE_airplane.bmp              | k=   1 | achieved=95.00% | CR=63.9376 | PSNR= 15.79 | time=0.0788s
+[ 30/ 61] FILE_airplaneU2.bmp            | k=   2 | achieved=85.08% | CR=63.9688 | PSNR= 24.05 | time=0.3662s
+[ 31/ 61] FILE_blobs.bmp                 | k=  17 | achieved=80.69% | CR=1.8713 | PSNR= 34.37 | time=0.0241s
+[ 32/ 61] FILE_boats.bmp                 | k=   1 | achieved=93.98% | CR=79.9383 | PSNR= 18.08 | time=0.0947s
+[ 33/ 61] FILE_brickwall.bmp             | k=   1 | achieved=95.43% | CR=127.9375 | PSNR= 20.85 | time=0.3656s
+[ 34/ 61] FILE_cablecar.bmp              | k=   1 | achieved=92.25% | CR=61.8731 | PSNR= 16.07 | time=0.0686s
+[ 35/ 61] FILE_cameraman.bmp             | k=   1 | achieved=91.40% | CR=31.9376 | PSNR= 13.66 | time=0.0173s
+[ 36/ 61] FILE_carpet.bmp                | k=   1 | achieved=86.13% | CR=127.9375 | PSNR= 14.93 | time=0.3721s
+[ 37/ 61] FILE_cellcolony.bmp            | k=   1 | achieved=98.73% | CR=50.8123 | PSNR= 20.66 | time=0.0413s
+[ 38/ 61] FILE_clown.bmp                 | k=   2 | achieved=84.08% | CR=31.9688 | PSNR= 16.73 | time=0.0795s
+[ 39/ 61] FILE_cornfield.bmp             | k=   1 | achieved=90.44% | CR=61.8731 | PSNR= 16.79 | time=0.0682s
+[ 40/ 61] FILE_couple.bmp                | k=   1 | achieved=91.65% | CR=63.9376 | PSNR= 16.72 | time=0.0774s
+[ 41/ 61] FILE_crowd.bmp                 | k=   2 | achieved=83.05% | CR=31.9688 | PSNR= 15.96 | time=0.0739s
+[ 42/ 61] FILE_fruits.bmp                | k=   1 | achieved=87.53% | CR=61.8731 | PSNR= 17.20 | time=0.0653s
+[ 43/ 61] FILE_girl.bmp                  | k=   1 | achieved=93.91% | CR=79.9383 | PSNR= 17.30 | time=0.0952s
+[ 44/ 61] FILE_girlface.bmp              | k=   1 | achieved=80.68% | CR=63.9376 | PSNR= 15.42 | time=0.0812s
+[ 45/ 61] FILE_goldhill.bmp              | k=   1 | achieved=93.30% | CR=79.9383 | PSNR= 18.76 | time=0.0945s
+[ 46/ 61] FILE_houses.bmp                | k=   1 | achieved=86.48% | CR=63.9376 | PSNR= 13.72 | time=0.0763s
+[ 47/ 61] FILE_kiel.bmp                  | k=   1 | achieved=94.54% | CR=63.9376 | PSNR= 17.97 | time=0.0802s
+[ 48/ 61] FILE_lighthouse.bmp            | k=   1 | achieved=90.84% | CR=63.9376 | PSNR= 16.42 | time=0.0784s
+[ 49/ 61] FILE_man.bmp                   | k=   2 | achieved=82.36% | CR=63.9688 | PSNR= 15.15 | time=0.3687s
+[ 50/ 61] FILE_monarch.bmp               | k=   1 | achieved=88.45% | CR=76.7400 | PSNR= 16.38 | time=0.1054s
+[ 51/ 61] FILE_pens.bmp                  | k=   3 | achieved=82.40% | CR=20.6244 | PSNR= 14.97 | time=0.0727s
+[ 52/ 61] FILE_sailboat.bmp              | k=   1 | achieved=90.31% | CR=63.9376 | PSNR= 15.26 | time=0.0827s
+[ 53/ 61] FILE_soccer.bmp                | k=   1 | achieved=83.84% | CR=61.8731 | PSNR= 15.49 | time=0.0668s
+[ 54/ 61] FILE_tank.bmp                  | k=   1 | achieved=97.43% | CR=63.9376 | PSNR= 21.41 | time=0.0944s
+[ 55/ 61] FILE_textureA.bmp              | k=   1 | achieved=98.78% | CR=127.9375 | PSNR= 24.50 | time=0.4195s
+[ 56/ 61] FILE_textureB.bmp              | k=   1 | achieved=81.00% | CR=127.9375 | PSNR=  9.81 | time=0.3709s
+[ 57/ 61] FILE_tiffany.bmp               | k=   1 | achieved=98.80% | CR=63.9376 | PSNR= 20.76 | time=0.0810s
+[ 58/ 61] FILE_truck.bmp                 | k=   1 | achieved=95.88% | CR=63.9376 | PSNR= 21.12 | time=0.0859s
+[ 59/ 61] FILE_trucks.bmp                | k=   1 | achieved=92.41% | CR=63.9376 | PSNR= 18.35 | time=0.0858s
+[ 60/ 61] FILE_yacht.bmp                 | k=   1 | achieved=87.71% | CR=61.8731 | PSNR= 15.63 | time=0.0727s
+[ 61/ 61] FILE_Venus.jpg                 | k=   1 | achieved=81.24% | CR=507.9375 | PSNR= 14.94 | time=21.7365s

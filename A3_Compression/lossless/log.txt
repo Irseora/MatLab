@@ -1,0 +1,62 @@
+Starting run...
+[  1/ 61] SYN_1x1 black                  | lossless=1 | CR=0.0156 | time = 0.0135 s
+[  2/ 61] SYN_1x1 white                  | lossless=1 | CR=0.0156 | time = 0.0021 s
+[  3/ 61] SYN_2x2 checker                | lossless=1 | CR=0.0500 | time = 0.0047 s
+[  4/ 61] SYN_odd uniform black          | lossless=1 | CR=2060.0156 | time = 0.0060 s
+[  5/ 61] SYN_odd uniform 128            | lossless=1 | CR=2060.0156 | time = 0.0050 s
+[  6/ 61] SYN_half black half white      | lossless=1 | CR=1820.4444 | time = 0.0043 s
+[  7/ 61] SYN_1px stripes                | lossless=1 | CR=31.5684 | time = 0.0051 s
+[  8/ 61] SYN_random noise               | lossless=1 | CR=0.0312 | time = 0.2649 s
+[  9/ 61] SYN_horizontal gradient        | lossless=1 | CR=31.1483 | time = 0.0038 s
+[ 10/ 61] SYN_vertical gradient          | lossless=1 | CR=0.1250 | time = 0.0626 s
+[ 11/ 61] FILE_Lenstarg.png              | lossless=1 | CR=4.1463 | time = 0.6649 s
+[ 12/ 61] FILE_Zoneplate.png             | lossless=1 | CR=6.0949 | time = 0.9717 s
+[ 13/ 61] FILE_BoatsColor.bmp            | lossless=1 | CR=0.0691 | time = 0.7518 s
+[ 14/ 61] FILE_Colorchecker.bmp          | lossless=1 | CR=0.1029 | time = 0.3785 s
+[ 15/ 61] FILE_Earth.bmp                 | lossless=1 | CR=0.0808 | time = 0.7994 s
+[ 16/ 61] FILE_Jupiter.bmp               | lossless=1 | CR=0.2021 | time = 0.8459 s
+[ 17/ 61] FILE_MachColor.bmp             | lossless=1 | CR=1.1426 | time = 0.0296 s
+[ 18/ 61] FILE_Malamute.bmp              | lossless=1 | CR=0.0584 | time = 3.3188 s
+[ 19/ 61] FILE_Maltese.bmp               | lossless=1 | CR=0.0820 | time = 7.2453 s
+[ 20/ 61] FILE_Mars.bmp                  | lossless=1 | CR=0.1325 | time = 1.2985 s
+[ 21/ 61] FILE_Mercury.bmp               | lossless=1 | CR=0.1082 | time = 0.4182 s
+[ 22/ 61] FILE_Neptune.bmp               | lossless=1 | CR=0.1613 | time = 0.8137 s
+[ 23/ 61] FILE_Rainier.bmp               | lossless=1 | CR=0.0790 | time = 3.0106 s
+[ 24/ 61] FILE_Saturn.bmp                | lossless=1 | CR=0.3127 | time = 0.7217 s
+[ 25/ 61] FILE_Sun.bmp                   | lossless=1 | CR=0.1191 | time = 4.1942 s
+[ 26/ 61] FILE_Sunrise.bmp               | lossless=1 | CR=0.0756 | time = 29.3750 s
+[ 27/ 61] FILE_Uranus.bmp                | lossless=1 | CR=0.6902 | time = 1.6179 s
+[ 28/ 61] FILE_Zelda.bmp                 | lossless=1 | CR=0.0740 | time = 3.2511 s
+[ 29/ 61] FILE_airplane.bmp              | lossless=1 | CR=0.0713 | time = 1.6965 s
+[ 30/ 61] FILE_airplaneU2.bmp            | lossless=1 | CR=0.0577 | time = 5.2015 s
+[ 31/ 61] FILE_blobs.bmp                 | lossless=1 | CR=0.1007 | time = 0.1954 s
+[ 32/ 61] FILE_boats.bmp                 | lossless=1 | CR=0.0687 | time = 1.3809 s
+[ 33/ 61] FILE_brickwall.bmp             | lossless=1 | CR=0.0523 | time = 3.8951 s
+[ 34/ 61] FILE_cablecar.bmp              | lossless=1 | CR=0.0651 | time = 0.7820 s
+[ 35/ 61] FILE_cameraman.bmp             | lossless=1 | CR=0.0604 | time = 0.2446 s
+[ 36/ 61] FILE_carpet.bmp                | lossless=1 | CR=0.0425 | time = 11.5271 s
+[ 37/ 61] FILE_cellcolony.bmp            | lossless=1 | CR=0.0618 | time = 0.4305 s
+[ 38/ 61] FILE_clown.bmp                 | lossless=1 | CR=0.0900 | time = 0.4617 s
+[ 39/ 61] FILE_cornfield.bmp             | lossless=1 | CR=0.0556 | time = 1.2227 s
+[ 40/ 61] FILE_couple.bmp                | lossless=1 | CR=0.0574 | time = 0.7452 s
+[ 41/ 61] FILE_crowd.bmp                 | lossless=1 | CR=0.0685 | time = 0.5876 s
+[ 42/ 61] FILE_fruits.bmp                | lossless=1 | CR=0.0686 | time = 0.5207 s
+[ 43/ 61] FILE_girl.bmp                  | lossless=1 | CR=0.0689 | time = 0.9334 s
+[ 44/ 61] FILE_girlface.bmp              | lossless=1 | CR=0.0715 | time = 0.6723 s
+[ 45/ 61] FILE_goldhill.bmp              | lossless=1 | CR=0.0590 | time = 0.9515 s
+[ 46/ 61] FILE_houses.bmp                | lossless=1 | CR=0.0508 | time = 0.6876 s
+[ 47/ 61] FILE_kiel.bmp                  | lossless=1 | CR=0.0543 | time = 0.7477 s
+[ 48/ 61] FILE_lighthouse.bmp            | lossless=1 | CR=0.0543 | time = 0.7349 s
+[ 49/ 61] FILE_man.bmp                   | lossless=1 | CR=0.0583 | time = 2.2987 s
+[ 50/ 61] FILE_monarch.bmp               | lossless=1 | CR=0.0736 | time = 0.6548 s
+[ 51/ 61] FILE_pens.bmp                  | lossless=1 | CR=0.0604 | time = 0.5365 s
+[ 52/ 61] FILE_sailboat.bmp              | lossless=1 | CR=0.0529 | time = 0.6797 s
+[ 53/ 61] FILE_soccer.bmp                | lossless=1 | CR=0.0523 | time = 0.6000 s
+[ 54/ 61] FILE_tank.bmp                  | lossless=1 | CR=0.0557 | time = 0.6019 s
+[ 55/ 61] FILE_textureA.bmp              | lossless=1 | CR=0.0527 | time = 2.5863 s
+[ 56/ 61] FILE_textureB.bmp              | lossless=1 | CR=0.0630 | time = 2.1279 s
+[ 57/ 61] FILE_tiffany.bmp               | lossless=1 | CR=0.0689 | time = 0.4744 s
+[ 58/ 61] FILE_truck.bmp                 | lossless=1 | CR=0.0565 | time = 0.5588 s
+[ 59/ 61] FILE_trucks.bmp                | lossless=1 | CR=0.0494 | time = 0.6198 s
+[ 60/ 61] FILE_yacht.bmp                 | lossless=1 | CR=0.0618 | time = 0.4946 s
+[ 61/ 61] FILE_Venus.jpg                 | lossless=1 | CR=0.0525 | time = 37.3226 s
