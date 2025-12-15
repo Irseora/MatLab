@@ -1,0 +1,144 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage[margin=1.5cm]{geometry}
+
+\graphicspath{ {./images/} }
+
+\title{%
+    Image Compression \\
+    \large Lossless and Lossy Grayscale Image Compression \\
+    \normalsize A3 - Image and Signal Processing
+}
+\date{\vspace{-5ex}}
+
+\begin{document}
+\maketitle
+
+\noindent\textbf{Goal:} Compress images using bit-plane coding (lossless) and low-rank approximation (lossy), and determine the achieved compression rate!
+
+\noindent\textbf{Input:} a grayscale image $I \in \{0, ..., 255\}^{m \times n}$
+
+\noindent\textbf{Output:}
+\begin{enumerate}
+    \item \textbf{Lossless:} an exact reconstruction $\hat{I} = I$
+    \item \textbf{Lossy:} an approximate reconstruction $\hat{I} \approx I$ with controlled quality
+\end{enumerate}
+
+\hrule
+
+\section*{Lossless Compression}
+\begin{multicols}{2}
+    \subsection*{Mathematical Model}
+    \begin{itemize}
+        \item Gray coding: bitwise XOR and right shift
+              \[
+                  G = I \oplus (I >> 1)
+              \]
+        \item Bit-plane extraction:
+              \[
+                  B_k = bitget(G, k), \hspace{1cm} k = 1, ..., 8
+              \]
+        \item Run-length encoding (RLE):
+              \begin{itemize}
+                  \item Convert $B_k$ to a 1D sequence
+                  \item Store runs as pairs $(v_i, l_i)$, \\ where $v_i \in \{0,1\}$ and $l_i$ is the
+                        run length
+              \end{itemize}
+    \end{itemize}
+
+    \vfill\null
+    \columnbreak
+
+    \subsection*{Reconstruction}
+    \begin{itemize}
+        \item Decode each $B_k$ from $(v_i, l_i)$
+        \item Rebuild gray-coded image:
+              \[
+                  \hat{G} = \sum\limits_{k=1}^8 \hat{B}_k \cdot 2^{k-1}
+              \]
+        \item Undo gray-coding:
+              \[
+                  \hat{I} = \hat{G} \oplus (\hat{G} >> 1) \oplus (\hat{G} >> 2) \oplus (\hat{G} >> 4)
+              \]
+    \end{itemize}
+
+    \subsection*{Metrics}
+    \begin{itemize}
+        \item Losslessness check: $isequal(I, \hat{I})$
+        \item Compression ratio (CR):
+              \[
+                  CR = \frac{m \cdot n \cdot 8}{\text{stored bits for all planes}}
+              \]
+    \end{itemize}
+\end{multicols}
+
+\hrule
+
+\section*{Lossy Compression}
+\begin{multicols}{2}
+    \subsection*{Mathematical Model}
+    \begin{itemize}
+        \item Treating image as a matrix $A \in \mathbb{R}^{m \times n}$
+        \item SVD:
+              \[
+                  A = U \sum V^T
+              \]
+        \item Truncated rank-$k$ approximation:
+              \[
+                  A_k = U_k \sum_k V_k^T
+              \]
+        \item Choosing $k$ to achieve `quality' via retained energy:
+              \begin{equation}\label{eq1}
+                  \frac{\sum_{i=1}^k \sigma_i^2}{\sum_{i=1}^r \sigma_i^2} \ge q
+              \end{equation}
+    \end{itemize}
+
+    \subsection*{Metrics}
+    \begin{itemize}
+        \item Quality achieved: fraction~(\ref{eq1})
+        \item PSNR:
+              \[
+                  PSNR = 10 \cdot \log_{10} \left( \frac{255^2}{MSE} \right)
+              \]
+        \item CR estimate:
+              \[
+                  \text{bits} \approx (mk + nk + k) \cdot 32
+              \]
+    \end{itemize}
+\end{multicols}
+
+\subsection*{Interesting Test Cases}
+
+\subsubsection*{Blobs}
+General shape is kept even at lower qualities.
+
+\noindent\includegraphics[scale=0.4]{Blobs.png}
+
+\subsubsection*{Colorchecker}
+Shape is kept, but `color' gets lost at lower qualities if they're similar enough in grayscale.
+
+\noindent\includegraphics[scale=0.4]{Colorchecker.png}
+
+\subsubsection*{Jupiter}
+Circles turn more square-like, fusing with the background.
+
+\noindent\includegraphics[scale=0.4]{Jupiter.png}
+
+\subsubsection*{Maltese}
+Struggles with large images.
+
+\noindent\includegraphics[scale=0.4]{Maltese.png}
+
+\section*{Conclusions}
+\textbf{Lossless compression} achieves perfect reconstruction on all tests, but often expands natural images ($CR < 1$) and is slow on run-heavy content.
+
+\noindent \textbf{Lossy compression} can achieve massive compression for images that are
+effectively low-rank (very smooth / structured), but struggles on textures /
+noise (needs larke $k$, $CR$ can fall below 1), and SVD runtime can be very
+large on big images.
+
+\end{document}
