@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1765818425.65359 "e:/Repos/MatLab/A3_Compression/documentation/doc.tex" "doc.pdf" "doc" 1765818426.73456 0
+["pdflatex"] 1765818608.3552 "e:/Repos/MatLab/A3_Compression/documentation/doc.tex" "doc.pdf" "doc" 1765818609.29209 0
   "C:/MiKTeX/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993062508 1436 c7f957a372ef2fbe93c0982f96625e12 ""
   "C:/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -63,9 +63,9 @@
   "C:/Users/keryv/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1750004903 163260 f7138aa97b0a1dcae55100dabb7d9e7d ""
   "C:/Users/keryv/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1765808604 11548 da1c30a3ec3cdef5ee8ffb7f13b34556 ""
   "C:/Users/keryv/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1739967880 12000960 a3bfcfb0f6b128b9bfef1c9f43394c9a ""
-  "doc.aux" 1765818428 71 9a023fb84acbdb92a104fefbd7dfbd15 "pdflatex"
-  "doc.tex" 1765818426 4499 56af22e4b97cbd8dcace903b0e659036 ""
-  "e:/Repos/MatLab/A3_Compression/documentation/doc.tex" 1765818426 4499 56af22e4b97cbd8dcace903b0e659036 ""
+  "doc.aux" 1765818610 71 9a023fb84acbdb92a104fefbd7dfbd15 "pdflatex"
+  "doc.tex" 1765818608 4528 14107558785c2e8f666dc5fa3b7709e5 ""
+  "e:/Repos/MatLab/A3_Compression/documentation/doc.tex" 1765818608 4528 14107558785c2e8f666dc5fa3b7709e5 ""
   "images/Blobs.png" 1765815596 327925 633f21de041aa3417087934f3dbcac8d ""
   "images/Colorchecker.png" 1765816116 250743 ada0a741f226053718bc37c11d7fdb5d ""
   "images/Jupiter.png" 1765816130 229515 e638c097af6bce1a56b56337e931ad2d ""

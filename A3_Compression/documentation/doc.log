@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.19)  15 DEC 2025 18:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.19)  15 DEC 2025 18:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -209,20 +209,20 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (doc.aux)
 \openout1 = `doc.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
  (C:\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count296
@@ -276,18 +276,14 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 19.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
 (C:\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 19.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
  (C:\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-
-LaTeX Warning: No \author given.
-
-
 
 [1
 
@@ -295,35 +291,35 @@ LaTeX Warning: No \author given.
 <./images/Blobs.png, id=18, 1326.8772pt x 273.1806pt>
 File: ./images/Blobs.png Graphic file (type png)
 <use ./images/Blobs.png>
-Package pdftex.def Info: ./images/Blobs.png  used on input line 119.
+Package pdftex.def Info: ./images/Blobs.png  used on input line 120.
 (pdftex.def)             Requested size: 530.74149pt x 109.2703pt.
 
-Overfull \hbox (1.80473pt too wide) in paragraph at lines 119--120
+Overfull \hbox (1.80473pt too wide) in paragraph at lines 120--121
 [] 
  []
 
 <./images/Colorchecker.png, id=19, 1326.8772pt x 198.0198pt>
 File: ./images/Colorchecker.png Graphic file (type png)
 <use ./images/Colorchecker.png>
-Package pdftex.def Info: ./images/Colorchecker.png  used on input line 124.
+Package pdftex.def Info: ./images/Colorchecker.png  used on input line 125.
 (pdftex.def)             Requested size: 530.74149pt x 79.20651pt.
 
-Overfull \hbox (1.80473pt too wide) in paragraph at lines 124--125
+Overfull \hbox (1.80473pt too wide) in paragraph at lines 125--126
 [] 
  []
 
 <./images/Jupiter.png, id=20, 1267.6158pt x 211.992pt>
 File: ./images/Jupiter.png Graphic file (type png)
 <use ./images/Jupiter.png>
-Package pdftex.def Info: ./images/Jupiter.png  used on input line 129.
+Package pdftex.def Info: ./images/Jupiter.png  used on input line 130.
 (pdftex.def)             Requested size: 507.03734pt x 84.79529pt.
 <./images/Maltese.png, id=21, 1326.8772pt x 293.4162pt>
 File: ./images/Maltese.png Graphic file (type png)
 <use ./images/Maltese.png>
-Package pdftex.def Info: ./images/Maltese.png  used on input line 134.
+Package pdftex.def Info: ./images/Maltese.png  used on input line 135.
 (pdftex.def)             Requested size: 530.74149pt x 117.3644pt.
 
-Overfull \hbox (1.80473pt too wide) in paragraph at lines 134--135
+Overfull \hbox (1.80473pt too wide) in paragraph at lines 135--136
 [] 
  []
 
@@ -336,15 +332,15 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3297 strings out of 473530
- 47299 string characters out of 5731629
- 454341 words of memory out of 5000000
- 26503 multiletter control sequences out of 15000+600000
+ 3298 strings out of 473530
+ 47307 string characters out of 5731629
+ 454346 words of memory out of 5000000
+ 26504 multiletter control sequences out of 15000+600000
  567035 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,264b,264s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,7n,65p,264b,264s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\keryv\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on doc.pdf (2 pages, 1511935 bytes).
+Output written on doc.pdf (2 pages, 1513304 bytes).
 PDF statistics:
  78 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
