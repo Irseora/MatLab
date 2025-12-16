@@ -1,3 +1,4 @@
+% Init
 num_bits = 8;
 inputDir = "E:\Repos\MatLab\A3_Compression\test_images";
 imgs = {};
@@ -25,6 +26,7 @@ for i = 1 : numel(files)
         img = img(:, :, 1 : 3);
     end
 
+    % Convert to grayscale
     gray = im2uint8(im2gray(img));
     imgs{end + 1} = gray;
     labels{end + 1} = "FILE_" + string(files(i).name);
@@ -37,30 +39,34 @@ vis_original = cell(1, num_show);
 vis_restored = cell(1, num_show);
 vis_labels = strings(1, num_show);
 
+% Open log file for writing
 log = fopen("lossless/log.txt", "w");
 fprintf(log, "Starting run...\n");
 
 % -------------------------------------------------------------------------
 
+% Run lossless compression on every image
 for i = 1 : numel(imgs)
     gray = uint8(imgs{i});
     [m, n] = size(gray);
-    original_bits = m * n * 8;
+    original_bits = m * n * 8;  % Original size in bits
 
+    % Start timer
     start_time = tic;
 
     % Apply gray code
     gray_coded = to_gray_code(gray);
 
-    % Compress & decompress each bit-plane
     total_compressed_bits = 0;
     decompressed_planes = cell(1, num_bits);
 
+    % Loop over bit-planes
     for b = 1 : num_bits
-        % Compress bit-planes
+        % Extract & compress bit-planes
         plane = bitget(gray_coded, b);
         [compressed_data, pm, pn] = RLE_compress(plane);
 
+        % Count compressed size
         info = whos('compressed_data');
         total_compressed_bits = total_compressed_bits + info.bytes * 8;
 
@@ -83,6 +89,7 @@ for i = 1 : numel(imgs)
     lossless = isequal(gray, restored);
     CR = original_bits / total_compressed_bits;
 
+    % Logging
     fprintf(log, "[%3d/%3d] %-30s | lossless=%d | CR=%.4f | time = %.4f s\n", ...
         i, numel(imgs), labels{i}, lossless, CR, elapsed_time);
     fprintf("[%3d/%3d] %-30s | lossless=%d | CR=%.4f | time = %.4f s\n", ...
